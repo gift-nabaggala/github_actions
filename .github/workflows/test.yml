@@ -4,7 +4,7 @@ name: Hello Workflow
 #workflow trigger
 on:
   push:
-    branches: [main]
+    branches: [test]
 
 jobs:
   say-hello:
