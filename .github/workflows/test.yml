@@ -1,0 +1,15 @@
+#Name of the workflow
+name: Hello Workflow
+
+#workflow trigger
+on:
+  push:
+    branches: [main]
+
+jobs:
+  say-hello:
+    runs-on: Windows-latest
+
+    steps:
+      - name: print hello
+        run: echo "hello"
